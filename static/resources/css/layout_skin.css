@@ -1399,31 +1399,6 @@
     margin-bottom: 30px;
 }
 
-.skin_w_photo2 .btn {
-    color: #fff;
-    height: 26px;
-    line-height: 26px;
-    min-width: 103px;
-    text-align: center;
-    background: url(../skin/w_photo1/bg_btn.png) no-repeat center top;
-    background-size: auto 25px;
-    -webkit-background-size: auto 25px;
-    -moz-background-size: auto 25px;
-}
-
-.skin_w_photo2 .btn a {
-    color: #fff;
-    display: block;
-    font-weight: bold;
-}
-
-.skin_w_photo2 .btn a.full {
-    background: url(../skin/w_photo1/icon_full2.png) no-repeat 90% center;
-    background-size: 12px auto;
-    -webkit-background-size: 12px auto;
-    -moz-background-size: 12px auto;
-}
-
 .skin_w_photo2 #movie .btn a {
     text-align: left;
     text-indent: 14px;
@@ -1532,42 +1507,6 @@
     float: right;
     text-align: left;
     padding: 0px;
-}
-
-.skin_w_photo2 #gift {
-    background: url(../skin/w_photo1/bg_gift.png) repeat left top;
-    background-size: 15px auto;
-    -webkit-background-size: 15px auto;
-    -moz-background-size: 15px auto;
-}
-
-.skin_w_photo2 #gift .gift_list li strong {
-    color: #fff;
-    height: 26px;
-    line-height: 26px;
-    text-align: center;
-    background: url(../skin/w_photo1/bg_btn.png) no-repeat center top;
-    background-size: 87px 25px;
-    -webkit-background-size: 87px 25px;
-    -moz-background-size: 87px 25px;
-}
-
-.skin_w_photo2 #gift .gift_list li strong.on {
-    background: url(../skin/w_photo1/bg_btn_on.png) no-repeat center top;
-    background-size: 87px 25px;
-    -webkit-background-size: 87px 25px;
-    -moz-background-size: 87px 25px;
-}
-
-.skin_w_photo2 .gift_more {
-    background: url(../skin/w_photo1/bg_more.png) repeat left top;
-    background-size: 16px auto;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-}
-
-.skin_w_photo2 .gift_more a {
-    color: #fc7a1a
 }
 
 .skin_w_photo2 #guest_book {
