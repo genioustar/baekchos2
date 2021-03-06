@@ -1,0 +1,908 @@
+/* w_skin_img65 */
+header {
+    color: #fff;
+    background: #fff;
+    position: relative;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.mobile_wrap .pages h2 {
+    padding: 52px 0 2% 0;
+    margin: 0 5%;
+}
+
+.skin_w_photo2 #start .time .input_time, .input_minute, .input_time_ch {
+    color: #1c150d;
+}
+
+.w_skin_img65 {
+    font-family: '나눔명조', 'Nanum Myeongjo', '맑은 고딕', 'Malgun Gothic', '나눔고딕', 'NanumGothic', 'NanumGothicWEB', '돋움', Dotum, '굴림', Gulim, sans-serif;
+}
+
+.w_skin_img65 #start {
+    position: relative;
+}
+
+.w_skin_img65 #start .position {
+    width: 100%;
+    left: 0px;
+    bottom: 8%;
+    margin: 18% 0;
+}
+
+.w_skin_img65 #start .d_day {
+    line-height: 20px;
+    min-height: 20px;
+    padding: 0px 0px 5px 0px;
+    color: #fff;
+}
+
+.w_skin_img65 #start .name {
+    text-align: center;
+    width: 100%;
+}
+
+.w_skin_img65 #start .name li {
+    line-height: 20px !important;
+    color: #1c150d;
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    letter-spacing: 3px;
+    padding: 0 6px !important;
+    margin: 5px 0 9px 0;
+    display: inline;
+}
+
+.w_skin_img65 #start .time {
+    color: #1c150d;
+    font-size: 15px;
+    letter-spacing: 0px;
+    padding: 0;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+
+.w_skin_img65 #start .line {
+    width: 30px;
+    height: 2px;
+    background: #ba8765;
+    margin: 0 auto;
+    margin-top: 41%;
+}
+
+.w_skin_img65 #start .input_time {
+    padding: 0px;
+}
+
+.w_skin_img65 #start .address {
+    color: #1c150d;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.w_skin_img65 #greeting {
+    background: #f9f9f9;
+}
+
+.w_skin_img65 #greeting .call_area {
+    overflow: hidden;
+    padding: 30px 0;
+    background: #fff;
+}
+
+.w_skin_img65 #greeting dl {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.w_skin_img65 #greeting dl.wife {
+    padding-bottom: 30px;
+}
+
+.w_skin_img65 #greeting dl dt {
+    float: left;
+    margin-top: 4%;
+    width: 56%;
+    padding: 0px;
+}
+
+.w_skin_img65 #greeting dl dt span.blue {
+    font-weight: normal;
+    color: #777;
+    margin-right: 5%;
+}
+
+.w_skin_img65 #greeting dl dt span.pink {
+    font-weight: normal;
+    color: #777;
+    margin-right: 5%;
+}
+
+.w_skin_img65 #greeting dl .input_husband {
+    font-size: 18px;
+    color: #555;
+}
+
+.w_skin_img65 #greeting dl .input_wife {
+    font-size: 18px;
+    color: #555;
+}
+
+.w_skin_img65 .parent_contect .blue {
+    color: #777;
+    font-size: 14px;
+    padding: 0 5px 0 0;
+}
+
+.w_skin_img65 .parent_contect .pink {
+    color: #777;
+    font-size: 14px;
+    padding: 0 5px 0 0;
+}
+
+.w_skin_img65 .parent_contect .input_blue_p_n, .parent_contect .input_blue_m_n {
+    color: #555;
+    font-weight: 700;
+}
+
+.w_skin_img65 .parent_contect .input_pink_p_n, .parent_contect .input_pink_m_n {
+    color: #555;
+    font-weight: 700;
+}
+
+.w_skin_img65 .parent_contect .btn_toggle {
+    margin: 0 auto;
+    width: 20px;
+    position: inherit;
+}
+
+.w_skin_img65 .parent_contect .btn_toggle {
+    margin: 0 auto;
+    width: 20px;
+    position: relative;
+    top: 30px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.w_skin_img65 .parent_contect > ul > li > strong > span {
+    display: block;
+    font-size: 15px;
+    height: 26px;
+    color: #333;
+}
+
+.w_skin_img65 #greeting dl dd {
+    padding: 0px 10px;
+    width: 12%;
+    float: left;
+    margin-top: 3%;
+}
+
+.w_skin_img65 #greeting .greeting {
+    color: #555;
+    font-size: 16px;
+    padding: 5% 5% 10% 5%;
+    line-height: 37px;
+}
+
+.w_skin_img65 #greeting .parent_contect {
+    background: none;
+}
+
+.w_skin_img65 .parent_contect > ul > li > strong {
+}
+
+.w_skin_img65 .parent_contect > ul > li.husband > strong {
+    color: #1f588c
+}
+
+.w_skin_img65 .parent_contect > ul > li.husband > strong {
+    color: #1f588c
+}
+
+.w_skin_img65 .parent_contect .dot_line {
+    background: none;
+}
+
+.w_skin_img65 .parent_contect .btn_contact li {
+    padding: 0px 5px;
+}
+
+.w_skin_img65 .parent_contect .btn_toggle a {
+    background: url(../skin/w_skin_img65/btn_toggle.png) no-repeat center top;
+    background-size: 14px auto;
+    -webkit-background-size: 18px auto;
+    -moz-background-size: 18px auto;
+    overflow: hidden;
+}
+
+.w_skin_img65 .parent_contect .btn_toggle.off a {
+    background-position: center -26px !important;
+}
+
+.w_skin_img65 #gallery {
+    padding-bottom: 20px;
+    background: #f9f9f9;
+}
+
+.w_skin_img65 .no_gallery {
+    color: #fff;
+}
+
+.w_skin_img65 #movie .embed-container {
+    position: relative;
+    padding-bottom: 56.25% !important;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 15px;
+}
+
+.w_skin_img65 #movie .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.w_skin_img65 #movie .img_line {
+}
+
+.w_skin_img65 #movie .img_line.bottom {
+}
+
+.w_skin_img65 #movie .btn a.full {
+    background: url(../skin/w_skin_img65/icon_full2.png) no-repeat 15px center;
+    background-size: 12px auto;
+    -webkit-background-size: 12px auto;
+    -moz-background-size: 12px auto;
+    padding: 0px 20px 0px 35px;
+}
+
+.w_skin_img65 #location {
+    padding-bottom: 20px;
+}
+
+.w_skin_img65 #location .hall_info {
+    font-family: '나눔명조', 'Nanum Myeongjo', '맑은 고딕', 'Malgun Gothic', '나눔고딕', 'NanumGothic', 'NanumGothicWEB', '돋움', Dotum, '굴림', Gulim, sans-serif;
+}
+
+.w_skin_img65 #location .navi a {
+    color: #fff;
+}
+
+#location .navi {
+    display: block;
+    color: #795548;
+    margin: 0 15px;
+    overflow: hidden;
+    height: 28px;
+    background-color: #8faf64;
+    font-family: 'Malgun Gothic', '나눔고딕', 'NanumGothic', 'NanumGothicWEB', '나눔명조', 'Nanum Myeongjo', '맑은 고딕', '돋움', Dotum, '굴림', Gulim, sans-serif;
+}
+
+.w_skin_img65 #location .navi li:first-child a {
+    color: #fff
+}
+
+.w_skin_img65 #location .navi li {
+    font-family: '나눔명조', 'Nanum Myeongjo', '맑은 고딕', 'Malgun Gothic', '나눔고딕', 'NanumGothic', 'NanumGothicWEB', '돋움', Dotum, '굴림', Gulim, sans-serif;
+}
+
+.w_skin_img65 #location .traffic_info li .txt {
+    font-family: '나눔명조', 'Nanum Myeongjo', '맑은 고딕', 'Malgun Gothic', '나눔고딕', 'NanumGothic', 'NanumGothicWEB', '돋움', Dotum, '굴림', Gulim, sans-serif;
+    color: #fff;
+}
+
+.w_skin_img65 #location .address dt {
+    color: #555;
+}
+
+.w_skin_img65 #location .address dt > span {
+    font-size: 16px;
+}
+
+.w_skin_img65 #location .address dd {
+    color: #666;
+}
+
+.w_skin_img65 #location .hall_info > li > strong {
+    color: #555;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.w_skin_img65 #location .hall_info > li > span {
+    display: inline-block;
+    color: #666;
+    padding: 0 0 10px 0;
+    font-size: 15px;
+}
+
+.w_skin_img65 #guest_book .massage_box {
+    padding: 20px;
+    background: none;
+}
+
+.w_skin_img65 #guest_book .massage_box .btn_write {
+    text-align: center;
+    font-family: '나눔고딕';
+    margin-top: 10%;
+}
+
+.w_skin_img65 #guest_book .massage_box .btn_write a {
+    font-weight: normal;
+    background-color: #8faf65;
+    color: #fff;
+}
+
+.w_skin_img65 #guest_book .massage_box li span.tt {
+    color: #9b5e33;
+    font-family: '나눔고딕';
+    letter-spacing: 0.3px;
+    top: auto;
+}
+
+.w_skin_img65 #guest_book .massage_box li {
+    border-bottom: 1px solid #e4dee0;
+    color: #e6eff3;
+    border-top: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.w_skin_img65 #guest_book .massage_box .massage_tit {
+    position: absolute;
+    bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.w_skin_img65 #guest_book .massage_list {
+    width: 84%;
+    margin: auto 0;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    background: #f4f3f1;
+    font-size: 12px;
+    border-radius: 0px;
+    text-align: left;
+    position: relative;
+}
+
+.w_skin_img65 #guest_book .massage_list .list_W {
+    padding: 15px;
+}
+
+.w_skin_img65 #guest_book .massage_list .name {
+    font-family: '나눔고딕';
+    padding-left: 0px;
+    font-weight: bold;
+    color: #555;
+    padding: 10px 0 10px 0;
+}
+
+.w_skin_img65 #guest_book .massage_list .time {
+    font-family: '나눔고딕';
+    letter-spacing: 0.1px;
+    color: #777;
+    top: 15px;
+    position: absolute;
+    right: 10px;
+    padding-left: 13px;
+}
+
+.w_skin_img65 #guest_book {
+    padding: 0px;
+}
+
+.w_skin_img65 #guest_book .massage_list .txt {
+    font-family: '나눔고딕';
+    letter-spacing: 0.1px;
+    color: #777;
+    min-height: 20px;
+    position: relative;
+    padding: 10px 0 10px 0;
+}
+
+.w_skin_img65 #guest_book .massage_list .txt > span {
+    display: inline-block;
+    width: 90%;
+}
+
+.w_skin_img65 #guest_book .massage_list .txt .txt_del {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.w_skin_img65 #guest_book .massage_list .txt .txt_del a {
+    width: 20px;
+    height: 20px;
+    background: url(../skin/w_skin_img65/btn_x.png) no-repeat left top;
+    background-size: 20px auto;
+    -webkit-background-size: 20px auto;
+    -moz-background-size: 20px auto;
+    display: block;
+    text-indent: -999%;
+    margin: 7px 0 10px 0;
+}
+
+.w_skin_img65 #guest_book .password {
+    margin: 10px 0px 0px 0px;
+    border: none;
+    padding: 1px;
+    width: 100%;
+}
+
+.w_skin_img65 #guest_book .password_input {
+    display: none;
+}
+
+.w_skin_img65 #guest_book .password input {
+    padding: 0px;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff !important;
+    text-align: center;
+}
+
+.w_skin_img65 #guest_book .password_input .btn {
+    color: #333;
+    height: 26px;
+    line-height: 26px;
+    min-width: 103px;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    border: 0px;
+    background: #8faf65;
+}
+
+.w_skin_img65 #guest_book .password_input .btn a {
+    font-family: '나눔고딕';
+    color: #fff;
+}
+
+.w_skin_img65 #guest_book p.txt {
+    color: #666;
+    font-size: 15px;
+    margin: 0% 0 5% 0;
+}
+
+.w_skin_img65 .massage_btn {
+    padding: 20px;
+}
+
+.w_skin_img65 .massage_btn li {
+    float: right;
+    width: 49%;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+.w_skin_img65 .massage_btn li a {
+    color: #333;
+    text-align: center;
+    display: block;
+    padding: 10px 5px;
+    font-family: '나눔고딕';
+}
+
+.w_skin_img65 .massage_btn li a span {
+    display: inline-block;
+    min-height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    background: url(../skin/w_skin_img65/icon_full.png) no-repeat left center;
+    background-size: 14px auto;
+    -webkit-background-size: 14px auto;
+    -moz-background-size: 14px auto;
+}
+
+.w_skin_img65 .massage_btn li.more {
+    float: left;
+    background: #fff;
+}
+
+.w_skin_img65 .massage_btn li.more a span {
+}
+
+.w_skin_img65 .massage_btn li.full {
+    float: right;
+    background: #fff;
+}
+
+.w_skin_img65 .massage_btn li.full a span {
+}
+
+.w_skin_img65 #location .map_wrap {
+    margin: 0 15px;
+    border: 0px;
+}
+
+.w_skin_img65 #location .hall_info {
+    padding: 20px;
+}
+
+.w_skin_img65 #location .hall_info li {
+    padding: 0px;
+}
+
+.w_skin_img65 #location .navi li .txt {
+    font-family: '나눔고딕';
+    color: #fff;
+}
+
+.w_skin_img65 #location .address {
+    padding: 20px;
+}
+
+.w_skin_img65 #location .address dd.icon_tel {
+    right: 20px;
+    margin-top: 20px;
+    top: 7px;
+}
+
+.w_skin_img65 #MoneyGift #toss_a {
+    background-color: #f7f7f7;
+    padding: 0px;
+}
+
+.mobile_wrap .footer_w {
+    background: #f7f7f7;
+    margin: 15% 0 0 0;
+}
+
+.footer_w .sns_a {
+    font-size: 0px;
+    background-color: #999;
+}
+
+.footer_w .sns_a li {
+    display: inline-block;
+    width: 25%;
+}
+
+.footer_w .sns_a li a {
+    display: block;
+    padding: 0px 3px;
+}
+
+.footer_w .ci {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.btn_write {
+    text-align: center;
+    font-family: '나눔고딕';
+    margin-top: 10%;
+}
+
+.btn_write a {
+    font-weight: normal;
+    background-color: #8faf64;
+    color: #fff;
+}
+
+#movie .input_movie iframe {
+    z-index: 9;
+}
+
+.overCount {
+    display: none;
+}
+
+.input_guidebook {
+    text-align: left;
+}
+
+.embed-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 5px;
+    margin: 0 auto !important;
+}
+
+#movie .input_movie iframe {
+    width: 100% !important;
+    height: 200px !important;
+    z-index: 9;
+}
+
+<!--계좌-->
+.remittance {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #dddddd;
+    box-sizing: border-box;
+    padding: 18% 0 18% 0;
+    position: relative;
+}
+
+.remittance .remittance_title {
+    font-weight: 600;
+    font-size: 17px;
+    color: #414141;
+    padding-bottom: 2%;
+}
+
+.remittance .remittance_sub_title {
+    font-weight: normal;
+    font-size: 15px;
+    padding-bottom: 8%;
+    color: #797979;
+}
+
+/* 신랑, 신부 */
+.remittance .remittance_btn_bx p > span {
+    font-weight: 600;
+    font-size: 17px;
+    color: #3b3b3b;
+    display: inline-block;
+    line-height: 40px;
+}
+
+/* 버튼 스킨 */
+.remittance .remittance_btn_bx p > a {
+    display: inline-block;
+    line-height: 41px;
+    color: white;
+    font-size: 13px;
+    background-color: #8faf65;
+    border-radius: 22px;
+    padding: 0 5.5%;
+    margin-left: 12%;
+    font-family: 'Noto Sans Kr', sans-serif;
+}
+
+.remittance .remittance_btn_bx .btn_bx_1 {
+    padding-bottom: 8%;
+}
+
+.remittance .remittance_btn_bx .btn_bx_2 {
+    padding-bottom: 0;
+}
+
+.remittance_pop_h, .remittance_pop_w {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.remittance_pop_h .remittance_pop_inner, .remittance_pop_w .remittance_pop_inner {
+    background-color: #fafafa;
+    border: 1px solid #d0d0d0;
+    width: 90%;
+    margin-left: 5%;
+    padding: 8% 7.5% 5% 7.5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.remittance_pop_inner .account_info {
+    color: #232323;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    line-height: 40px;
+    border-bottom: 1px solid #aaa;
+    font-size: 18px;
+    margin-bottom: 8.5%;
+}
+
+.remittance_pop_inner .account_c {
+    color: #232323;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    padding-bottom: 2.5%;
+}
+
+.remittance_pop_inner .account_num {
+    color: #232323;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.remittance_pop_inner .copy_btn {
+    display: block;
+    line-height: 26px;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -20px;
+    background-color: #dddddd;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #232323;
+}
+
+.remittance_pop_inner .close_btn {
+    width: 100%;
+    line-height: 52px;
+    line-height: 52px;
+    color: white;
+    background-color: #8faf65;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+
+.w_skin_img44 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #86978f;
+                        color: #fff;
+                    }
+
+                    .w_skin_img45 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #c3c5be;
+                    }
+
+                    .w_skin_img46 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #c3c5be;
+                    }
+
+                    .w_skin_img47 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #c3c5be;
+                    }
+
+                    .w_skin_img48 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #f7c0b5;
+                        color: #fff;
+                    }
+
+                    .w_skin_img49 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #eab3b2;
+                        color: #fff;
+                    }
+
+                    .w_skin_img50 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #899668;
+                        color: #fff;
+                    }
+
+                    .w_skin_img51 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #409180;
+                        color: #fff;
+                    }
+
+                    .w_skin_img52 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #eb9699;
+                        color: #fff;
+                    }
+
+                    .w_skin_img53 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #eeb4a8;
+                        color: #fff;
+                    }
+
+                    .w_skin_img54 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #d5a559;
+                        color: #fff;
+                    }
+
+                    .w_skin_img55 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #245d32;
+                        color: #fff;
+                    }
+
+                    .w_skin_img56 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #a37730;
+                        color: #fff;
+                    }
+
+                    .w_skin_img57 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #1a7d3c;
+                        color: #fff;
+                    }
+
+                    .w_skin_img58 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #245d32;
+                        color: #fff;
+                    }
+
+                    .w_skin_img59 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #efa78e;
+                        color: #fff;
+                    }
+
+                    .w_skin_img60 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #95ab97;
+                        color: #fff;
+                    }
+
+                    .w_skin_img61 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #9e8366;
+                        color: #fff;
+                    }
+
+                    .w_skin_img62 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #efa78e;
+                        color: #fff;
+                    }
+
+                    .w_skin_img63 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #efa78e;
+                        color: #fff;
+                    }
+
+                    .w_skin_img64 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #efa78e;
+                        color: #fff;
+                    }
+
+                    .w_skin_img65 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #8faf64;
+                        color: #fff;
+                    }
+
+                    .w_skin_img69 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #ddb16b;
+                        color: #fff;
+                    }
+
+                    .w_skin_img70 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #c99e67;
+                        color: #fff;
+                        border-radius: 0;
+                    }
+
+                    .w_skin_img71 #guest_book .massage_box .btn_write a {
+                        font-weight: normal;
+                        background-color: #c3c5be;
+                        color: #fff;
+                        border-radius: 0;
+                    }
