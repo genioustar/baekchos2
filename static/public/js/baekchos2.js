@@ -144,6 +144,7 @@ $(document).ready(function () {
         return false;
     });
 
+
     $("#cmtInvID").val($("#invID").val());
     $("#cmtInvCode").val($("#invCode").val());
 
@@ -158,117 +159,12 @@ $(document).ready(function () {
     $(".input_floor").html($("#locDetail").val());
     $(".input_greeting").html($("#invGreeting").val());
 
-    if ($("#evtDate").length > 0 && $("#evtDate").val() != "") {
-        //var dateText = $(".want_day").html().replace(/[sunmotewdhfriat()가-힣]/gi, '').trim();
-        var dateText = $("#dday").val().substring(0, 10).replace(/[^0-9.\-]/gi, '').trim();
-        var today = Date.getToday(); // 오늘 날짜
-        var dday = new Date(dateText); // 디데이를 설정할 날짜
-        var cal = today.getTime() - dday.getTime();
-        var days = Math.ceil(cal / (1000 * 60 * 60 * 24));
-
-        if ($("#invSkinCode").val() == "WD008") {
-            var date_img_txt = $("#dday").val().substring(0, 10).replace(/-/gi, '');
-
-            day_yyyy = date_img_txt.substr(0, 4); //년도
-            day_mm = date_img_txt.substr(4, 2);   //월
-            day_dd = date_img_txt.substr(6, 2);   //일
-
-            day_yymmdd = day_yyyy + day_mm + day_dd;
-
-            var str = "";
-            for (var i = 0; i < day_yymmdd.length; i++) {
-                str = str + '<img src="../static/resources/skin/w_photo1/h_' + day_yymmdd.substr(i, 1) + '.png" width="25">';
-
-                if (i == 3 || i == 5) {
-                    str = str + '<img src="../static/resources/skin/w_photo1/h_s.png" width="25">';
-                }
-            }
-
-            $("#date_img").html(str);
-
-        }
-
-        if ($("#invSkinCode").val() == "WD011" || $("#invSkinCode").val() == "WD081") {
-            var date_img_txt = $("#dday").val().substring(0, 10).replace(/-/gi, '');
-
-            day_mm = date_img_txt.substr(4, 2);   //월
-            day_dd = date_img_txt.substr(6, 2);   //일
-
-            $(".day").html(day_mm + "/" + day_dd);
-
-        }
-
-        if ($("#invSkinCode").val() == "WD014" || $("#invSkinCode").val() == "WD053" || $("#invSkinCode").val() == "WD054") {
-            var date_img_txt = $("#dday").val().substring(0, 10).replace(/-/gi, '');
-
-            day_mm = date_img_txt.substr(4, 2);   //월
-            day_dd = date_img_txt.substr(6, 2);   //일
-
-            $(".day").html(day_mm + "." + day_dd);
-
-        }
-        //alert($("#evtDate").val() + "," + dateText + "," + $("#dday").val());
-        //alert(dday);
-
-        // D-day
-        if (days > 0) {
-            if ($("#invSkinCode").val() == "WD008") {
-                var str = '';
-                str = str + '<p><img src="../static/resources/skin/w_photo1/label_plus.png" width="80%">';
-
-                for (var i = 0; i < String(days).length; i++) {
-                    //if (i > 0) {
-                    str = str + '<img src="../static/resources/skin/w_photo1/label_' + String(days).substr(i, 1) + '.png" width="80%">';
-                    //}
-                }
-
-                str = str + '</p>';
-                $(".input_dday").html(str);
-            } else {
-                if ($("#invSkinCode").val() == "WD007") {
-                    $(".input_dday").html("+" + days);
-                } else {
-                    $(".input_dday").html("D" + "+" + days);
-                }
-
-            }
-
-        } else if (days < 0) {
-            if ($("#invSkinCode").val() == "WD008") {
-                var str = '';
-                str = str + '<p><img src="../static/resources/skin/w_photo1/label_minus.png" width="80%">';
-
-                for (var i = 0; i < String(days).length; i++) {
-                    if (i > 0) {
-                        str = str + '<img src="../static/resources/skin/w_photo1/label_' + String(days).substr(i, 1) + '.png" width="80%">';
-                    }
-                }
-
-                str = str + '</p>';
-                $(".input_dday").html(str);
-
-            } else {
-                if ($("#invSkinCode").val() == "WD007") {
-                    $(".input_dday").html("" + days);
-                } else {
-                    $(".input_dday").html("D" + days);
-                }
-
-            }
-        } else {
-            if ($("#invSkinCode").val() == "WD008") {
-                $(".input_dday").html("");
-            } else {
-                $(".input_dday").html("Today");
-            }
-        }
-    }
-    // 메인이미지
-
-    if ($(".main_pohoto").length > 0) {
+     if ($(".main_pohoto").length > 0) {
         if ($("#invMainImage").length > 0 && $("#invMainImage").val() != "")
             $(".main_pohoto > img").attr("src", $("#invMainImage").val() + "?ipignore=true&" + d.getTime());
     }
+
+
     // 청첩장정보
     if ($(".input_husband").length > 0) $(".input_husband").html($("#grmName").val());
     if ($(".input_wife").length > 0) $(".input_wife").html($("#brdName").val());
@@ -664,6 +560,7 @@ $(document).ready(function () {
         $("#MoneyGift").hide();
     }
 
+    alert('2222');
     $(".grm_account_bank").html("KB국민");
     $(".brd_account_bank").html("");
     $(".grm_account_num").text("96589120258");
