@@ -373,7 +373,7 @@ $(document).ready(function () {
     var strMapMedia = "";
     if ($("#locMapType").val() == "MGGL") {
         //strMapMedia = "<iframe id=\"incGoogleMap\" src=\"/Invitations/GoogleMap?lat=" + $("#locMapLat").val() + "&lng=" + $("#locMapLng").val() + "\" width=\"750\" height=\"320\" frameborder=\"0\" style=\"border: 0\" allowfullscreen></iframe>";
-        strMapMedia = "<iframe id=\"incGoogleMap\" src=\"/Invitations/NaverMap?lat=" + $("#locMapLat").val() + "&lng=" + $("#locMapLng").val() + "\" width=\"750\" height=\"320\" frameborder=\"0\" style=\"border: 0\" allowfullscreen></iframe>";
+        strMapMedia = "<iframe id=\"incGoogleMap\" src=\"http://mcard.barunnfamily.com/Invitations/NaverMap?lat=" + $("#locMapLat").val() + "&lng=" + $("#locMapLng").val() + "\" width=\"750\" height=\"320\" frameborder=\"0\" style=\"border: 0\" allowfullscreen></iframe>";
         //strMapMedia = "<iframe id=\"incGoogleMap\" src=\"/Invitations/KakaoMap?lat=" + $("#locMapLat").val() + "&lng=" + $("#locMapLng").val() + "\" width=\"750\" height=\"320\" frameborder=\"0\" style=\"border: 0\" allowfullscreen></iframe>";
         $("#location").removeClass("h_navi");
     } else {
@@ -560,7 +560,6 @@ $(document).ready(function () {
         $("#MoneyGift").hide();
     }
 
-    alert('2222');
     $(".grm_account_bank").html("KB국민");
     $(".brd_account_bank").html("");
     $(".grm_account_num").text("96589120258");
